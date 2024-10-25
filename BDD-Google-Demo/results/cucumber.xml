@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.776" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Google Search" name="Search Tool on Google - #1.1" time="7.179">
+<system-out><![CDATA[
+Given Google HomePage is Open...............................................passed
+When I Type SearchKey as "Selenium".........................................passed
+And Click GoogleSearch......................................................passed
+Then I click on FirstSuggested Link.........................................passed
+Then SearchPage Opens with expURL "selenium"................................passed
+And print the pageTitle.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="Search Tool on Google - #1.2" time="11.384">
+<system-out><![CDATA[
+Given Google HomePage is Open...............................................passed
+When I Type SearchKey as "TestComplete".....................................passed
+And Click GoogleSearch......................................................passed
+Then I click on FirstSuggested Link.........................................passed
+Then SearchPage Opens with expURL "testcomplete"............................passed
+And print the pageTitle.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="Search Tool on Google - #1.3" time="8.068">
+<system-out><![CDATA[
+Given Google HomePage is Open...............................................passed
+When I Type SearchKey as "jMeter"...........................................passed
+And Click GoogleSearch......................................................passed
+Then I click on FirstSuggested Link.........................................passed
+Then SearchPage Opens with expURL "jmeter"..................................passed
+And print the pageTitle.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
